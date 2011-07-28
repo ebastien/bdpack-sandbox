@@ -1,0 +1,19 @@
+#!/usr/bin/make -f
+
+.PHONY: build-arch build-indep build clean binary-arch binary-indep binary clean
+
+build-arch:
+
+build-indep:
+
+build: build-arch build-indep
+
+binary-arch: build
+
+binary-indep: build
+
+binary: binary-arch binary-indep
+	dpkg-distaddfile EMPTY - -
+
+clean:
+	dh_clean

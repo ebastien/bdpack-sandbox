@@ -1,0 +1,11 @@
+Source: hello
+Maintainer: Emmanuel Bastien <os@ebastien.name>
+Standards-Version: 3.9.2
+Build-Depends: debhelper
+Section: misc
+Priority: optional
+
+Package: hello
+Architecture: all
+Description: Hello package
+Depends: ${misc:Depends}
