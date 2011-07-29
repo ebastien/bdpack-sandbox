@@ -5,7 +5,7 @@ Build-Depends: debhelper
 Section: misc
 Priority: optional
 
-Package: hello
+Package: hello-dummy
 Architecture: all
 Description: Binary placeholder
  This is an empty package.
