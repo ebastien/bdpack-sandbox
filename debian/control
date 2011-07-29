@@ -7,5 +7,6 @@ Priority: optional
 
 Package: hello
 Architecture: all
-Description: Hello package
+Description: Binary placeholder
+ This is an empty package.
 Depends: ${misc:Depends}
