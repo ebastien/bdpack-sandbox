@@ -10,3 +10,10 @@ Architecture: all
 Description: Binary placeholder
  This is an empty package.
 Depends: ${misc:Depends}
+
+Package: hello-bin
+Architecture: any
+Description: Sample GNU package
+ It prints a friendly greeting.  It also serves as a sample GNU
+ package, showing practices that may be useful for GNU projects.
+Depends: ${shlibs:Depends}, ${misc:Depends}
