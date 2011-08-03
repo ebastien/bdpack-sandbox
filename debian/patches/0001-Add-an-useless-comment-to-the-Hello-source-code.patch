@@ -1,0 +1,22 @@
+From: Emmanuel Bastien <os@ebastien.name>
+Date: Wed, 3 Aug 2011 16:25:36 +0200
+Subject: Add an useless comment to the Hello source code.
+
+---
+ src/hello.c |    2 ++
+ 1 files changed, 2 insertions(+), 0 deletions(-)
+
+diff --git a/src/hello.c b/src/hello.c
+index 47af4da..fd2eb5f 100644
+--- a/src/hello.c
++++ b/src/hello.c
+@@ -19,6 +19,8 @@
+ #include <config.h>
+ #include "system.h"
+ 
++/* Useless comment for dummy Debian patch. */
++
+ /* String containing name the program is called with.  */
+ const char *program_name;
+ 
+-- 
