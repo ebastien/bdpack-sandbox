@@ -1,5 +1,10 @@
-hello (2.7-1) unstable; urgency=low
+hello (2.7-1~1.gbp81a233) unstable; urgency=low
+
+  ** SNAPSHOT build @81a2337303165ba9fd041406b68dbb1b7a72134d **
 
   * Initial release.
+  * Rename dummy package.
+  * Add binary control spec and related debian/rules commands.
+  * The first patch.
 
- -- Emmanuel Bastien <os@ebastien.name>  Wed, 27 Jul 2011 15:45:13 +0200
+ -- Emmanuel Bastien <emmanuel.bastien@amadeus.com>  Wed, 03 Aug 2011 16:42:38 +0200
